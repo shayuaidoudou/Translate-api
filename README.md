@@ -9,6 +9,10 @@
 - execjs
 - Pyside6
 
+Node运行环境
+
+- 20.13.1
+
 ```python
 pip install requests
 pip install pycryptodome

@@ -1,4 +1,4 @@
-# Translate-api@鲨鱼爱兜兜
+![image](https://github.com/shayuaidoudou/Translate-api/assets/140249561/2d9eb3aa-6286-4bb7-82b6-5d8245c8cc11)# Translate-api@鲨鱼爱兜兜
 
 该项目集成了百度翻译，有道翻译，金山词霸，360翻译 多种翻译api接口，开发者均可直接调用。
 
@@ -28,7 +28,7 @@ python shark_translate.py
 
 运行结果如下图：
 
-![image-20240625112104714](res\image-20240625112104714.png)
+![image](https://github.com/shayuaidoudou/Translate-api/assets/140249561/7b9c5afa-3818-4a81-8bff-39080a1e219f)
 
 ![image-20240625112137157](res\image-20240625112137157.png)
 

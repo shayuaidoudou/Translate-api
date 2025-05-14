@@ -49,7 +49,10 @@ params = {
 }
 response = requests.post('https://ifanyi.iciba.com/index.php', params=params, headers=headers, data=data)
 response.encoding = 'utf-8'
+print(response.json())
 cipher2 = AES.new(decode_key, AES.MODE_ECB)
 decrypt = unpad(cipher2.decrypt(base64.b64decode(response.json()['content'])), AES.block_size).decode('utf-8')
+print(decrypt)
 res = json.loads(decrypt)
-print(res['out'])
+print(res)
+print('翻译结果：', res['out'])

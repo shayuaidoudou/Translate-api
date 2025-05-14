@@ -51,7 +51,7 @@ headers = {
 data = {
     'i': query,
     'from': 'auto',
-    'to': '',
+    'to': 'en',
     'dictResult': 'true',
     'keyid': 'webfanyi',
     'sign': sign,
